@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    /* place-items: center; */
+    justify-content: center;
+    align-items: center;
+    /* background: #ff7675; */
+    background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23c75dc8' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.inner-div{
+    width: 50vw;
+    height: 55vh;
+    padding: 20px 80px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(69, 67, 67) ;
+}
+
+.inner-div h1{
+    font-size: 45px;
+    margin: 0 0 30px 0 ; 
+}
+
+.inner-div li{
+    margin: 15px;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+input{
+    cursor: pointer;
+}
+#submit, .btn{
+   padding: 10px 20px;
+   font-size: 20px;
+   font-weight: bold;
+   /* outline: none; */
+   /* for centering btn we hv to use display block and margin auto */
+   display: block;
+   margin: auto;
+   border: none;
+   border-radius:5px;
+   text-transform: uppercase;
+   color: white;
+   background: #bd7dbe;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+#submit:hover{
+    background: #bc4ebe;
+}
+#showScore{
+    background: #b2bec3;
+    margin-top: 20px;
+    padding: 25px 20px;
+    box-shadow: 0 5px 5px rgb(130, 127, 127) ;
+}
+#showScore h3{
+    font-size: 22px;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 20px;
+    background: rgb(245, 52, 46);
+}
+
+.scoreArea{
+    display: none;
+}
